@@ -1,0 +1,27 @@
+package faktorial;
+
+import java.util.Scanner;
+public class Faktorial {
+
+    
+    public static void main(String[] args) {
+        int n, fak=1;
+        System.out.print("Masukkan Bilangan Faktorial = ");
+        Scanner in=new Scanner(System.in);
+        n=in.nextInt();
+        
+        if(n<0){
+            System.out.println("Jangan Bilangan Negatif !!!!");
+        }
+        else{
+            for(int i=1; i<=n; i++){
+                System.out.print("");
+                if(i<=n){
+                    System.out.print(i+"x");
+                }
+            }
+        }
+        System.out.println("");
+    }
+    
+}

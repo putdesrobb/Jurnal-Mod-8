@@ -19,9 +19,11 @@ public class Faktorial {
                 if(i<=n){
                     System.out.print(i+"x");
                 }
+                fak=fak*i;
             }
         }
         System.out.println("");
+        System.out.println("Faktorial dari "+n+" adalaah = "+fak);
     }
     
 }

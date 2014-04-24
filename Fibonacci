@@ -8,7 +8,7 @@ public class Fibonacci {
         System.out.print("Masukkan Bilangan Fibonacci = ");
         Scanner in=new Scanner(System.in);
         n=in.nextInt();
-        
+        int jumlah=0;
         int f=0;
         int g=1;
         
@@ -16,9 +16,10 @@ public class Fibonacci {
             System.out.print(f +" ");
             f=f+g;
             g=f-g;
-            
+            jumlah=jumlah+g;
         }
         System.out.println();
+        System.out.println("Jumlah = "+jumlah);
     }
     
 }
